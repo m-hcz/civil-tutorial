@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./GlobalVariables.css" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./menu.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link rel="stylesheet" href="./scrollbar.css" />
+    <link rel="stylesheet" href="./imgWidth.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Civil 3D tutoriál</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTI4MC4xNzIgMjQuMTcyYzAtMTMuMzM3LTEwLjg0NS0yNC4xNzItMjQuMTcyLTI0LjE3MnMtMjQuMTcyIDEwLjgzNS0yNC4xNzIgMjQuMTcydjQxLjI2N2g0OC4zNDR6Ii8+PHBhdGggZD0ibTMxNi43NzQgMTA1LjM0MmMwLTUuNTIzLTQuNDc3LTEwLTEwLTEwaC0xMDEuNTQ4Yy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwdjM5LjE4MWgxMjEuNTQ3di0zOS4xODF6Ii8+PHBhdGggZD0ibTUxMS4xNzYgMzAxLjgzNWMwLTI1LjIzOC0zMi4yNTYtNDMuNTA5LTk4LjYwMS01NS44Ni04LjEyNC0xLjUwNS0xNS45MjkgMy44NDgtMTcuNDQ0IDExLjk2MS0xLjUwNSA4LjEyNCAzLjg0OCAxNS45MjkgMTEuOTYxIDE3LjQ0NCA1Mi40MjEgOS43NDkgNzAuNTUyIDIxLjg0OSA3My44MzEgMjYuMzk1LTIuMjMzIDIuODcxLTE0LjEyNCAxNC4zNzQtNjUuNTI4IDI0LjktMjAuMzQyIDQuMTczLTQyLjYxMyA3LjIyNi02My40NDUgOS4yOGwtMzIuNDY1LTE2MS41MjhoLTQ1LjI0NGwzMi45OTMgMTY0Ljc5OGMtMzQuMzQgMS43MTQtNzAuMzUzIDEuNjAzLTEwMi40NjkgMGwzMi45OTMtMTY0Ljc5OGgtNDUuMjQ0bC0zMi40NjQgMTYxLjUyOGMtMjAuNjU3LTIuMDM3LTQzLjAyMy01LjA5MS02My40NDUtOS4yOC01MS40MDQtMTAuNTI2LTYzLjI5Ni0yMi4wMjktNjUuNTI4LTI0LjkgMy4yNzktNC41NDUgMjEuNDExLTE2LjY0NiA3My44MzEtMjYuMzk1IDguMTE0LTEuNTE1IDEzLjQ2Ny05LjMyIDExLjk2MS0xNy40NDQtMS41MTUtOC4xMTQtOS4zMi0xMy40NzYtMTcuNDQ0LTExLjk2MS02Ni4zNDYgMTIuMzUtOTguNjAxIDMwLjYyMS05OC42MDEgNTUuODYgMCA0NC45NzQgMTA4LjE5NiA1OC45NTggMTUzLjMwNSA2My41ODVsLTIxLjA1MiAxMDQuNzcyIDEwLjU1NSAzOC4xNTJjMS4wOSAzLjk0MSA2LjIwMSA0Ljk2NCA4LjcyNSAxLjc0N2wyNC40MzktMzEuMTU3IDIyLjAzOS0xMTAuMDU1YzM4LjA5IDEuOTc3IDc1LjM5NyAyLjAyMSAxMTQuMzMxIDBsMjIuMDM5IDExMC4wNTUgMjQuNDM5IDMxLjE1N2MyLjUyNCAzLjIxNyA3LjYzNSAyLjE5NCA4LjcyNS0xLjc0N2wxMC41NTUtMzguMTUyLTIxLjA1My0xMDQuNzcyYzQ0LjctNC41ODUgMTUzLjMwNS0xOC42OTggMTUzLjMwNS02My41ODV6Ii8+PC9nPjwvc3ZnPg=="
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <div class="heading">
+          <div class="icon-setting">
+            <button id="theme" class="btn-setting">
+              <i class="fas fa-adjust"></i>
+            </button>
+            <button id="plus" class="btn-setting">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+            <button id="minus" class="btn-setting">
+              <i class="fas fa-minus-circle"></i>
+            </button>
+            <button id="setting" class="btn-setting">
+              <i class="fas fa-question-circle"></i>
+            </button>
+          </div>
+          <button id="btn-heading">
+            <h1>Civil 3D</h1>
+            <h2>Tutoriál</h2>
+          </button>
+        </div>
+        <div id="menu-container" class="buttons">
+          <div class="list-item-container">
+            <ul id="menu">
+              <li>
+                <button id="btn1" class="btn-click button list-item">
+                  Nastavení výkresu
+                </button>
+              </li>
+              <li>
+                <button id="btn2" class="btn-click button list-item">
+                  Terén, mapové podklady
+                </button>
+              </li>
+              <li>
+                <button id="btn3" class="btn-click button list-item">
+                  Trasa
+                </button>
+              </li>
+              <li>
+                <button id="btn4" class="btn-click button list-item">
+                  Podélný profil
+                </button>
+              </li>
+              <li>
+                <button id="btn5" class="btn-click button list-item">
+                  Šablona typických řezů
+                </button>
+              </li>
+              <li>
+                <button id="btn6" class="btn-click button list-item">
+                  Koridor
+                </button>
+              </li>
+              <li>
+                <button id="btn7" class="btn-click button list-item">
+                  Klopení
+                </button>
+              </li>
+              <li>
+                <button id="btn8" class="btn-click button list-item">
+                  Příčné řezy
+                </button>
+              </li>
+              <li>
+                <button id="btn9" class="btn-click button list-item">
+                  Kubatury, reporty
+                </button>
+              </li>
+              <li>
+                <div>
+                  <button id="btn10" class="btn-click button list-item">
+                    Tisk
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section id="start" class="box-start">
+        <div class="icon-container">
+          <div>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+          </div>
+          <div>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+          </div>
+          <div>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+            <i class="fas fa-arrow-circle-up rotate-arrow"></i>
+          </div>
+        </div>
+      </section>
+      <section id="kap" class="box2 box-hidden"></section>
+    </div>
+    <script type="text/javascript" src="./GlobalVariables.js"></script>
+    <script type="module" src="./Buttons.js"></script>
+  </body>
+</html>
