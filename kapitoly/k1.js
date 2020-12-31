@@ -7,7 +7,7 @@ Po_101_C3D.dwg</textarea>`;
 
 const h2 = `<h4>Nový výkres</h4>`;
 const t2 = `<p>Pro správné <b>fungování české</b> verze Civilu 3D a stylů zobrazení je nutné rýsovat do šablony Autocad Civil 3D 20xx CZ, která se volí při otevření nového výkresu. Nebo do upravené HBH šablony.</p>`;
-const i2 = `<img class='w40' src='./images/k1/k1i2.jpg' alt=''/>`;
+const i2 = `<img class='w40' src='/civil-tutorial/images/k1/k1i2.jpg' alt=''/>`;
 
 const h3 = `<h4>Datové zkratky</h4>`;
 const i3 = `<img class='w40' src='' alt=''/>`;
