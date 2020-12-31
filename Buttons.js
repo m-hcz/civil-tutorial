@@ -7,6 +7,7 @@ import k6 from "./kapitoly/k6.js";
 import k7 from "./kapitoly/k7.js";
 import k8 from "./kapitoly/k8.js";
 import k9 from "./kapitoly/k9.js";
+
 import k10 from "./kapitoly/k10.js";
 
 $(document).ready(() => {

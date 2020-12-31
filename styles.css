@@ -8,7 +8,7 @@ section h3 {
   color: var(--main-red-color);
   font-weight: 900;
   text-transform: uppercase;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* text-shadow: 0.05rem 0.05rem 0.05rem var(--main-red-color); */
 }
 section h4 {
@@ -21,7 +21,7 @@ section h4 {
   font-size: calc(var(--para-font-size) + 0.2rem);
   font-weight: 700;
   text-transform: uppercase;
-  border: 1px solid;
+  /* border: 1px solid; */
   /* text-shadow: 0.05rem 0.05rem 0.05rem var(--main-red-color); */
 }
 
@@ -31,7 +31,7 @@ section img {
   height: auto;
   display: block;
   position: relative;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 section p {
@@ -43,7 +43,7 @@ section p {
   color: var(--main-dark-color);
   font-size: var(--para-font-size);
   transition: color 0.25s linear;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 section textarea {
@@ -62,7 +62,7 @@ section textarea {
   transition: color 0.25s linear;
   resize: none;
   overflow-wrap: break-word;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 section a {
   display: block;
