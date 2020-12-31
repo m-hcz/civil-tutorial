@@ -1,7 +1,7 @@
 import { copy } from "./k1.js";
 
 const heading = `<h3>Nastavení výkresu</h3>`;
-const kap2Img = `<img class='w40' src='./images/k1/k1i2.jpg' alt=''/>`;
+const kap2Img = `<img class='w40' src='/civil-tutorial/images/k1/k1i2.jpg' alt=''/>`;
 const kap2P = `<textarea readonly>(název výkresu)_(číslo objektu)_(program).dwg
 Si_101_C3D.dwg
 
